@@ -1,10 +1,21 @@
 $white-color: #ffff;
-$theme-color-1: #ffa500;
+$black-color: #000000;
+$theme-color-1: #f59e0b;
+
+
 
 body {
     overflow: hidden;
     overflow-y: auto;
     font-family: "Poppins", sans-serif;
+}
+
+.section-space-sm{
+    margin-bottom: 3rem;
+}
+
+.section-space{
+    margin-bottom: 5rem;
 }
 
 
@@ -13,12 +24,17 @@ h2,
 h3,
 h4,
 a,
+p,
 ul,
 li,
 figure,
 button {
     margin: 0;
     padding: 0;
+}
+
+b{
+    display: block;
 }
 
 ul {
@@ -30,19 +46,102 @@ a {
 }
 
 
+
+
 .theme-btn {
+    display: inline-block;
     border: 0;
     border-radius: 20px;
     padding: .5rem 1.25rem;
     text-transform: capitalize;
     font-weight: 500;
+    transition: all ease-in-out .3s;
+    font-size: .9rem;
 }
 
 .primary-btn {
-    background-color: rgb(245, 158, 11 , 1);
+    background-color: #f59e0b;
     color: $white-color;
 
-    &:hover{
-    background-color: rgb(245, 158, 11 , 0.5);
+    &:hover {
+        background-color: rgb(245, 158, 11, 0.5);
+    }
+
+    svg {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+
+.secondary-btn {
+    background-color: $white-color;
+    color: $black-color;
+    border: 1px solid;
+    border-color: rgb(203 213 225);
+
+    &:hover {
+        background-color: rgb(248 250 252 / 0.8);
+    }
+}
+
+
+
+.theme-service-icon-1 {
+    background-color: rgb(254 243 199);
+
+    svg {
+        color: rgb(217 119 6);
+    }
+}
+
+
+.theme-service-icon-2 {
+    background-color: rgb(219 234 254 );
+
+    svg {
+        color: rgb(37 99 235);
+    }
+}
+
+.theme-service-icon-3 {
+    background-color: rgb(220 252 231);
+
+    svg {
+        color: rgb(22 163 74);
+    }
+}
+
+
+.theme-service-icon-4 {
+    background-color: rgb(243 232 255 );
+
+    svg {
+        color: rgb(147 51 234);
+    }
+}
+
+.professional-service-icon{
+    display: inline-block;
+    background-color: $black-color;
+    padding: 1rem;
+    border-radius: 15px;
+    svg{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.section-title{
+    text-align: center;
+    h2{
+        font-size: clamp(2rem, 3vw, 2.5rem);
+        color: $black-color;
+        padding-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 1.2rem;
     }
 }
