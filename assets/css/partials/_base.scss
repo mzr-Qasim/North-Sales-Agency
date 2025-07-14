@@ -1,0 +1,48 @@
+$white-color: #ffff;
+$theme-color-1: #ffa500;
+
+body {
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+a,
+ul,
+li,
+figure,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.theme-btn {
+    border: 0;
+    border-radius: 20px;
+    padding: .5rem 1.25rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.primary-btn {
+    background-color: rgb(245, 158, 11 , 1);
+    color: $white-color;
+
+    &:hover{
+    background-color: rgb(245, 158, 11 , 0.5);
+    }
+}
