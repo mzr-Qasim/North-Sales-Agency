@@ -19,20 +19,22 @@
 
 }
 
-.main_logo{
-    .logo-icon{
+.main_logo {
+    .logo-icon {
         width: 2.5rem;
         height: 2.5rem;
         border-radius: 10px;
         background-color: $black-color;
     }
-    svg{
+
+    svg {
         color: $white-color;
     }
-span{
-    font-size: 1.2rem;
+
+    span {
+        font-size: 1.2rem;
         font-weight: bold;
-}
+    }
 }
 
 .navbar-nav {
@@ -58,9 +60,10 @@ span{
     padding: 3rem 0;
     background-color: rgb(248 250 252 / 0.8);
 
-    .col-inner{
+    .col-inner {
         min-height: 100%;
     }
+
     .main-hero-heading {
         font-size: clamp(3rem, 3vw, 7rem);
         font-weight: 600;
@@ -71,7 +74,7 @@ span{
         }
     }
 
-    p{
+    p {
         font-size: 1.2rem;
         line-height: 2.5rem;
     }
@@ -85,7 +88,7 @@ span{
 }
 
 
-.main_hero-service-inner{
+.main_hero-service-inner {
     background-color: $white-color;
     padding: 1.5rem;
     border-radius: 20px;
@@ -100,17 +103,12 @@ span{
     //     margin-top: 2rem;
     // }
 
-    h4{
+    h4 {
         font-weight: bold;
     }
 
-    .service-icon{
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-    }
 
-    &:hover{
+    &:hover {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 }
@@ -118,8 +116,8 @@ span{
 
 // Professional-Sales-Services-inner
 
-.Professional-Sales-Services-inner{
-    .col-inner{
+.Professional-Sales-Services-inner {
+    .col-inner {
         background-color: $white-color;
         padding: 1.5rem;
         color: $black-color;
@@ -130,24 +128,106 @@ span{
         justify-content: space-between;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
-    .method-icon{
+
+    .method-icon {
         width: 2.5rem;
         height: 2.5rem;
         border-radius: 50%;
         background-color: rgb(241 245 249);
     }
-    .features{
-        li{
-            &:not(:last-child){
+
+    .features {
+        li {
+            &:not(:last-child) {
                 margin-bottom: 1rem;
             }
-            svg{
-                color:  rgb(34 197 94);
+
+            svg {
+                color: rgb(34 197 94);
             }
         }
     }
 }
 
+// How It Works
+
+.how-it-works-cards {
+    position: relative;
+
+    .col-inner {
+        background-color: $white-color;
+        padding: 2rem;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 20px;
+
+        .card-header {
+            span {
+                font-weight: 600;
+                font-size: 4rem;
+                color: rgb(241 245 249);
+
+            }
+        }
+
+        .card-body {
+            b {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $black-color;
+        z-index: -1;
+    }
+}
+
+// Why-Choose-North-Sales
+
+.Why-Choose-North-Sales-wrapper {
+    background-color: rgb(248 250 252 / 0.8);
+    padding: 5rem 0;
+
+    .col-inner {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .Why-Choose-North-Sales-col-inner {
+        h2 {
+            color: $black-color;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+         .service-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+    }
+    .main_hero-service-inner {
+            .service-icon {
+                            width: 4rem;
+            height: 4rem;
+                background-color: rgb(248 250 252 / 0.8);
+
+                svg {
+                    color: rgb(71 85 105);
+                    width: 2.2rem;
+                    height: 2.2rem;
+                }
+            }
+        }
+}
 
 
 @import "./partials/mediaqueries"

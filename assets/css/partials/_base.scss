@@ -10,11 +10,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.section-space-sm{
+.section-space-sm {
     margin-bottom: 3rem;
 }
 
-.section-space{
+.section-space {
     margin-bottom: 5rem;
 }
 
@@ -33,7 +33,7 @@ button {
     padding: 0;
 }
 
-b{
+b {
     display: block;
 }
 
@@ -46,7 +46,7 @@ a {
 }
 
 
-.custom-container-sm{
+.custom-container-sm {
     max-width: 1250px;
 }
 
@@ -101,7 +101,7 @@ a {
 
 
 .theme-service-icon-2 {
-    background-color: rgb(219 234 254 );
+    background-color: rgb(219 234 254);
 
     svg {
         color: rgb(37 99 235);
@@ -118,34 +118,43 @@ a {
 
 
 .theme-service-icon-4 {
-    background-color: rgb(243 232 255 );
+    background-color: rgb(243 232 255);
 
     svg {
         color: rgb(147 51 234);
     }
 }
 
-.professional-service-icon{
+.theme-icon {
     display: inline-block;
     background-color: $black-color;
     padding: 1rem;
     border-radius: 15px;
-    svg{
+
+    svg {
         width: 2rem;
         height: 2rem;
     }
 }
 
-.section-title{
+.service-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.section-title {
     text-align: center;
-    h2{
+
+    h2 {
         font-size: clamp(2rem, 3vw, 2.5rem);
         color: $black-color;
         padding-bottom: 1rem;
         font-weight: 600;
+        text-transform: capitalize;
     }
 
-    p{
+    p {
         font-size: 1.2rem;
     }
 }

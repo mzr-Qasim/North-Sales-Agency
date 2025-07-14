@@ -12083,15 +12083,21 @@ a {
   color: rgb(147, 51, 234);
 }
 
-.professional-service-icon {
+.theme-icon {
   display: inline-block;
   background-color: #000000;
   padding: 1rem;
   border-radius: 15px;
 }
-.professional-service-icon svg {
+.theme-icon svg {
   width: 2rem;
   height: 2rem;
+}
+
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
 .section-title {
@@ -12102,6 +12108,7 @@ a {
   color: #000000;
   padding-bottom: 1rem;
   font-weight: 600;
+  text-transform: capitalize;
 }
 .section-title p {
   font-size: 1.2rem;
@@ -12178,11 +12185,6 @@ a {
 .main_hero-service-inner h4, .main_hero-service-inner .h4 {
   font-weight: bold;
 }
-.main_hero-service-inner .service-icon {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-}
 .main_hero-service-inner:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -12209,4 +12211,68 @@ a {
 }
 .Professional-Sales-Services-inner .features li svg {
   color: rgb(34, 197, 94);
+}
+
+.how-it-works-cards {
+  position: relative;
+}
+.how-it-works-cards .col-inner {
+  background-color: white;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 20px;
+}
+.how-it-works-cards .col-inner .card-header span {
+  font-weight: 600;
+  font-size: 4rem;
+  color: rgb(241, 245, 249);
+}
+.how-it-works-cards .col-inner .card-body b {
+  font-size: 1.2rem;
+}
+.how-it-works-cards::after {
+  position: absolute;
+  content: "";
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  z-index: -1;
+}
+
+.Why-Choose-North-Sales-wrapper {
+  background-color: rgba(248, 250, 252, 0.8);
+  padding: 5rem 0;
+}
+.Why-Choose-North-Sales-wrapper .col-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.Why-Choose-North-Sales-wrapper .Why-Choose-North-Sales-col-inner h2, .Why-Choose-North-Sales-wrapper .Why-Choose-North-Sales-col-inner .h2 {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.Why-Choose-North-Sales-wrapper .Why-Choose-North-Sales-col-inner .service-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.Why-Choose-North-Sales-wrapper .main_hero-service-inner .service-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(248, 250, 252, 0.8);
+}
+.Why-Choose-North-Sales-wrapper .main_hero-service-inner .service-icon svg {
+  color: rgb(71, 85, 105);
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+@media (max-width: 1199px) {
+  .how-it-works-cards::after {
+    content: none;
+  }
 }/*# sourceMappingURL=main.css.map */
