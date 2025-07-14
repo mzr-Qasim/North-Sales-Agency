@@ -7,7 +7,7 @@
 
 
 .navbar-wrapper {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +41,7 @@ span{
             margin-right: 1.2rem;
         }
 
-        button {
+        a {
             text-transform: capitalize;
             font-weight: 500;
 
@@ -56,11 +56,10 @@ span{
 
 .main-hero-section {
     padding: 3rem 0;
-    margin-top: 4.5rem;
     background-color: rgb(248 250 252 / 0.8);
 
     .col-inner{
-        height: 100%;
+        min-height: 100%;
     }
     .main-hero-heading {
         font-size: clamp(3rem, 3vw, 7rem);
@@ -97,9 +96,9 @@ span{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: all ease-in-out .3s;
 
-    &.main_hero-service-inner-top{
-        margin-top: 2rem;
-    }
+    // &.main_hero-service-inner-top{
+    //     margin-top: 2rem;
+    // }
 
     h4{
         font-weight: bold;
@@ -121,7 +120,7 @@ span{
 
 .Professional-Sales-Services-inner{
     .col-inner{
-        background-color: orange;
+        background-color: $white-color;
         padding: 1.5rem;
         color: $black-color;
         height: 100%;
