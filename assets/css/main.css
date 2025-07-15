@@ -12343,14 +12343,18 @@ a {
   border-radius: 15px 15px 0 15px;
 }
 
-.trusted-brands {
-  display: flex;
-  justify-content: center;
-  overflow-x: auto;
+.trusted-brands .swiper-slide figure {
+  width: 180px;
 }
-.trusted-brands img {
-  width: 200px;
+.trusted-brands .swiper-slide figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   filter: grayscale(100%);
+}
+.trusted-brands .swiper-slide:hover img {
+  filter: none;
 }
 
 .Our-Clients-wrapper .review-card {
@@ -12388,6 +12392,30 @@ a {
 }
 .Our-Clients-wrapper .card-footer .feature-title .fw-normal {
   font-weight: bolder;
+}
+
+.Accordions .accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Accordions .accordion .accordion-item {
+  border: 1px solid;
+  border-color: rgb(226, 232, 240);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.Accordions .accordion .accordion-item .accordion-button p {
+  font-weight: 600;
+}
+.Accordions .accordion .accordion-item .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #000000;
+  box-shadow: none;
+}
+.Accordions .accordion .accordion-item .accordion-button:hover p {
+  color: #f59e0b;
+  text-decoration: underline;
 }
 
 @media (max-width: 1199px) {
