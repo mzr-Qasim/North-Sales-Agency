@@ -1,6 +1,6 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 10,
+  slidesPerView: 2,
+  spaceBetween: 30,
   loop: true,
   speed: 1000,
   parallax: true,
@@ -10,10 +10,10 @@ var swiper = new Swiper(".mySwiper", {
   },
   breakpoints: {
     640: {
-      slidesPerView: 2,
+      slidesPerView: 3,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     1024: {
       slidesPerView: 5,
