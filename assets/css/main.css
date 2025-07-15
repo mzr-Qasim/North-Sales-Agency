@@ -12042,15 +12042,23 @@ a {
 }
 
 .primary-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
   background-color: #f59e0b;
   color: white;
-}
-.primary-btn:hover {
-  background-color: rgba(245, 158, 11, 0.5);
 }
 .primary-btn svg {
   width: 1rem;
   height: 1rem;
+  transition: all ease-in-out 0.2s;
+}
+.primary-btn:hover {
+  background-color: rgba(245, 158, 11, 0.5);
+}
+.primary-btn:hover svg {
+  transform: translateX(30%);
 }
 
 .secondary-btn {
@@ -12416,6 +12424,57 @@ a {
 .Accordions .accordion .accordion-item .accordion-button:hover p {
   color: #f59e0b;
   text-decoration: underline;
+}
+
+.contact-section-wrapper .col-inner {
+  height: 100%;
+}
+.contact-section-wrapper .col-inner .feature {
+  background-color: rgb(248, 250, 252);
+  border-radius: 15px;
+  padding: 1rem;
+  transition: all ease-in-out 0.3s;
+}
+.contact-section-wrapper .col-inner .feature a {
+  color: #000000;
+  transition: all ease-in-out 0.3s;
+}
+.contact-section-wrapper .col-inner .feature:hover {
+  background-color: rgb(240, 246, 252);
+}
+.contact-section-wrapper .col-inner .feature:hover a {
+  color: #f59e0b;
+}
+.contact-section-wrapper .contact-form {
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+.contact-section-wrapper .contact-form input,
+.contact-section-wrapper .contact-form textarea {
+  width: 100%;
+  border: 1px solid;
+  border-color: rgb(226, 232, 240);
+  border-radius: 5px;
+  padding: 0.3rem 0.7rem;
+  resize: none;
+  font-size: 0.9rem;
+}
+.contact-section-wrapper .contact-form input:focus,
+.contact-section-wrapper .contact-form textarea:focus {
+  outline: 2px solid #f59e0b;
+}
+.contact-section-wrapper .contact-form input::-moz-placeholder, .contact-section-wrapper .contact-form textarea::-moz-placeholder {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.contact-section-wrapper .contact-form input::placeholder,
+.contact-section-wrapper .contact-form textarea::placeholder {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.contact-section-wrapper .contact-form .theme-btn {
+  border-radius: 5px;
 }
 
 @media (max-width: 1199px) {
