@@ -2,10 +2,10 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 2,
   spaceBetween: 30,
   loop: true,
-  speed: 1000,
+  speed: 3000,
   parallax: true,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     disableOnInteraction: false,
   },
   breakpoints: {
