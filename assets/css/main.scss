@@ -192,9 +192,12 @@
 
 // Why-Choose-North-Sales
 
-.Why-Choose-North-Sales-wrapper {
+.Why-Choose-North-Sales {
     background-color: rgb(248 250 252 / 0.8);
     padding: 5rem 0;
+}
+
+.Why-Choose-North-Sales-wrapper {
 
     .col-inner {
         display: flex;
@@ -209,24 +212,101 @@
             font-weight: 600;
         }
 
-         .service-icon {
+        .service-icon {
             width: 2.5rem;
             height: 2.5rem;
         }
     }
-    .main_hero-service-inner {
-            .service-icon {
-                            width: 4rem;
-            height: 4rem;
-                background-color: rgb(248 250 252 / 0.8);
 
-                svg {
-                    color: rgb(71 85 105);
-                    width: 2.2rem;
-                    height: 2.2rem;
-                }
+    .main_hero-service-inner {
+        .service-icon {
+            width: 4rem;
+            height: 4rem;
+            background-color: rgb(248 250 252 / 0.8);
+
+            svg {
+                color: rgb(71 85 105);
+                width: 2.2rem;
+                height: 2.2rem;
             }
         }
+    }
+}
+
+// Anatomy-Successful-Call-wrapper
+
+
+.anatomy-chat-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+}
+
+.anatomy-chat-header {
+    background-color: $black-color;
+    color: $white-color;
+    padding: 1rem;
+
+    .service-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .feature-title {
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.anatomy-chat-body {
+    max-height: 40vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: $white-color;
+
+    .feature {
+        .service-icon {
+            background-color: rgb(248 250 252);
+
+            svg {
+                color: rgb(71 85 105);
+            }
+        }
+
+        .feature-title {
+            max-width: 28rem;
+            padding: 1rem;
+            border-radius: 15px 15px 15px 0;
+            background-color: rgb(248 250 252);
+
+        }
+    }
+
+    .feature:nth-child(even) {
+        margin-left: auto;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .service-icon {
+            background-color: rgb(219 234 254);
+
+            svg {
+                color: rgb(37 99 235);
+            }
+        }
+
+        .feature-title {
+            background-color: rgb(254 243 199);
+            color: rgb(120 53 15);
+            border-radius: 15px 15px 0 15px;
+        }
+    }
 }
 
 
