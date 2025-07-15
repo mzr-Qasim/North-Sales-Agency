@@ -11989,6 +11989,10 @@ body {
   margin-bottom: 5rem;
 }
 
+.section-space-lg {
+  margin-bottom: 8rem;
+}
+
 h1, .h1,
 h2,
 .h2,
@@ -12277,7 +12281,7 @@ a {
 }
 
 .anatomy-chat-wrapper {
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -12300,7 +12304,7 @@ a {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1rem;
   background-color: white;
 }
