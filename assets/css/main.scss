@@ -115,7 +115,6 @@
 
 .Professional-Sales-Services-inner {
     .col-inner {
-        background-color: $white-color;
         padding: 1.5rem;
         color: $black-color;
         height: 100%;
@@ -182,9 +181,18 @@
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: $black-color;
+        background-color: rgb(226 232 240);
         z-index: -1;
     }
+
+    //     p{
+    //         display: -webkit-box;
+    //   -webkit-line-clamp: 5;
+    //   -webkit-box-orient: vertical;
+    //   overflow: hidden;
+    //   text-overflow: ellipsis;
+
+    //     }
 }
 
 // Why-Choose-North-Sales
@@ -213,6 +221,11 @@
             width: 2.5rem;
             height: 2.5rem;
         }
+    }
+
+    .col-inner-wrapper {
+        height: 20% !important;
+        width: 100%;
     }
 
     .main_hero-service-inner {

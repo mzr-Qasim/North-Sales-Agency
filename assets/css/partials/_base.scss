@@ -1,6 +1,15 @@
 $white-color: #ffff;
 $black-color: #000000;
 $theme-color-1: #f59e0b;
+$orange-gradient: linear-gradient(90deg,rgba(247, 144, 15, 1) 0%, rgba(247, 128, 18, 1) 100%);
+$pink-gradient:  linear-gradient(90deg,rgba(254, 248, 241, 1) 0%, rgba(253, 248, 243, 1) 100%);
+$blue-gradient: linear-gradient(90deg,rgba(70, 122, 244, 1) 0%, rgba(89, 108, 242, 1) 100%);
+$light-blue-gradient: linear-gradient(90deg,rgba(246, 249, 255, 1) 0%, rgba(247, 248, 255, 1) 100%);
+$light-purple-gradient: linear-gradient(90deg,rgba(250, 246, 254, 1) 0%, rgba(250, 247, 255, 1) 100%);
+$dark-purple-gradient: linear-gradient(90deg,rgba(161, 87, 247, 1) 0%, rgba(145, 90, 246, 1) 100%);
+$green-gradient: linear-gradient(90deg,rgba(32, 189, 90, 1) 0%, rgba(25, 171, 79, 1) 100%);
+
+
 
 
 
@@ -22,6 +31,32 @@ body {
     margin-bottom: 8rem;
 }
 
+.orange-gradient{
+    background: $orange-gradient;
+}
+.pink-gradient{
+    background: $pink-gradient;
+}
+
+.light-blue-gradient{
+    background: $light-blue-gradient;
+}
+
+.light-purple-gradient{
+    background: $light-purple-gradient;
+}
+
+.dark-purple-gradient{
+    background: $dark-purple-gradient;
+}
+
+.blue-gradient{
+    background: $blue-gradient;
+}
+
+.green-gradient{
+    background: $green-gradient;
+}
 
 h1,
 h2,

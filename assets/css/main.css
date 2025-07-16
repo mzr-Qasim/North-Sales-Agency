@@ -11993,6 +11993,34 @@ body {
   margin-bottom: 8rem;
 }
 
+.orange-gradient {
+  background: linear-gradient(90deg, rgb(247, 144, 15) 0%, rgb(247, 128, 18) 100%);
+}
+
+.pink-gradient {
+  background: linear-gradient(90deg, rgb(254, 248, 241) 0%, rgb(253, 248, 243) 100%);
+}
+
+.light-blue-gradient {
+  background: linear-gradient(90deg, rgb(246, 249, 255) 0%, rgb(247, 248, 255) 100%);
+}
+
+.light-purple-gradient {
+  background: linear-gradient(90deg, rgb(250, 246, 254) 0%, rgb(250, 247, 255) 100%);
+}
+
+.dark-purple-gradient {
+  background: linear-gradient(90deg, rgb(161, 87, 247) 0%, rgb(145, 90, 246) 100%);
+}
+
+.blue-gradient {
+  background: linear-gradient(90deg, rgb(70, 122, 244) 0%, rgb(89, 108, 242) 100%);
+}
+
+.green-gradient {
+  background: linear-gradient(90deg, rgb(32, 189, 90) 0%, rgb(25, 171, 79) 100%);
+}
+
 h1, .h1,
 h2,
 .h2,
@@ -12206,7 +12234,6 @@ a {
 }
 
 .Professional-Sales-Services-inner .col-inner {
-  background-color: white;
   padding: 1.5rem;
   color: #000000;
   height: 100%;
@@ -12254,7 +12281,7 @@ a {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000000;
+  background-color: rgb(226, 232, 240);
   z-index: -1;
 }
 
@@ -12276,6 +12303,10 @@ a {
 .Why-Choose-North-Sales-wrapper .Why-Choose-North-Sales-col-inner .service-icon {
   width: 2.5rem;
   height: 2.5rem;
+}
+.Why-Choose-North-Sales-wrapper .col-inner-wrapper {
+  height: 20% !important;
+  width: 100%;
 }
 .Why-Choose-North-Sales-wrapper .main_hero-service-inner .service-icon {
   width: 4rem;
