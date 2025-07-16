@@ -12326,7 +12326,7 @@ a {
 }
 
 .anatomy-chat-header {
-  background-color: #000000;
+  background-color: #1E293B;
   color: white;
   padding: 1rem;
 }
@@ -12555,6 +12555,11 @@ a {
 @media (max-width: 1199px) {
   .how-it-works-cards::after {
     content: none;
+  }
+}
+@media (max-width: 767px) {
+  .anatomy-chat-body .feature .feature-title {
+    max-width: 100%;
   }
 }
 @media (max-width: 576px) {

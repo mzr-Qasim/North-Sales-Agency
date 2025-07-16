@@ -10,6 +10,18 @@
 
 
 
+@media(max-width:767px){
+   .anatomy-chat-body {
+    .feature {
+        .feature-title {
+            max-width: 100%;
+
+        }
+    }
+}
+}
+
+
 @media(max-width:576px){
     .md-hide{
         display: none;
