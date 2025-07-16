@@ -12481,4 +12481,16 @@ a {
   .how-it-works-cards::after {
     content: none;
   }
+}
+@media (max-width: 575px) {
+  .main-hero-section {
+    padding: 3rem 0;
+    background-color: rgba(248, 250, 252, 0.8);
+  }
+  .main-hero-section .main-hero-links {
+    flex-direction: column;
+  }
+  .main-hero-section .main-hero-links button {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
