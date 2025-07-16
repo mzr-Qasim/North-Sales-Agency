@@ -12479,7 +12479,7 @@ a {
 
 .footer-wrapper {
   background-color: rgb(15, 23, 42);
-  padding: 3rem 0;
+  padding: 4rem 0;
   color: rgb(203, 213, 225);
 }
 .footer-wrapper .col-inner ul li:first-child {
@@ -12499,6 +12499,26 @@ a {
 }
 .footer-wrapper .main_logo span {
   color: white;
+}
+.footer-wrapper .footer-bottom {
+  position: relative;
+  padding-top: 5rem;
+}
+.footer-wrapper .footer-bottom::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(30, 41, 59);
+}
+.footer-wrapper .footer-bottom a {
+  color: rgb(203, 213, 225);
+  transition: all ease-in-out 0.3s;
+}
+.footer-wrapper .footer-bottom a:hover {
+  color: #f59e0b;
 }
 
 @media (max-width: 1199px) {
