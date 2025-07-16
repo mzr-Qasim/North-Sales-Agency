@@ -12477,12 +12477,39 @@ a {
   border-radius: 5px;
 }
 
+.footer-wrapper {
+  background-color: rgb(15, 23, 42);
+  padding: 3rem 0;
+  color: rgb(203, 213, 225);
+}
+.footer-wrapper .col-inner ul li:first-child {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.footer-wrapper .col-inner ul li:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+.footer-wrapper .col-inner ul li a {
+  color: rgb(203, 213, 225);
+  transition: all ease-in-out 0.3s;
+}
+.footer-wrapper .col-inner ul li a:hover {
+  color: #f59e0b;
+}
+.footer-wrapper .main_logo span {
+  color: white;
+}
+
 @media (max-width: 1199px) {
   .how-it-works-cards::after {
     content: none;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
+  .md-hide {
+    display: none;
+  }
   .main-hero-section {
     padding: 3rem 0;
     background-color: rgba(248, 250, 252, 0.8);

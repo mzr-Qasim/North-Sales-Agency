@@ -99,9 +99,6 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: all ease-in-out .3s;
 
-    // &.main_hero-service-inner-top{
-    //     margin-top: 2rem;
-    // }
 
     h4 {
         font-weight: bold;
@@ -500,6 +497,46 @@
     }
 
 }
+
+// footer
+
+.footer-wrapper {
+    background-color: rgb(15 23 42);
+    padding: 3rem 0;
+    color: rgb(203 213 225);
+
+    .col-inner {
+        ul {
+            li {
+                &:first-child {
+                    color: $white-color;
+                    font-weight: 500;
+                    font-size: 1.1rem;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 1.2rem;
+                }
+
+                a {
+                    color: rgb(203 213 225);
+                    transition: all ease-in-out .3s;
+
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+
+    .main_logo {
+        span {
+            color: $white-color;
+        }
+    }
+}
+
 
 
 @import "./partials/mediaqueries"
