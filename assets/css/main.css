@@ -12562,6 +12562,10 @@ a {
   .anatomy-chat-body .feature .feature-title {
     max-width: 100%;
   }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 @media (max-width: 576px) {
   .md-hide {
