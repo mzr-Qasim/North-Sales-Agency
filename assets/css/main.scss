@@ -156,6 +156,7 @@
         height: 100%;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
         border-radius: 20px;
+        transition: all ease-in-out .3s;
 
         .card-header {
             span {
@@ -172,6 +173,10 @@
             }
         }
 
+        &:hover {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+        }
+
     }
 
     &::after {
@@ -185,14 +190,7 @@
         z-index: -1;
     }
 
-    //     p{
-    //         display: -webkit-box;
-    //   -webkit-line-clamp: 5;
-    //   -webkit-box-orient: vertical;
-    //   overflow: hidden;
-    //   text-overflow: ellipsis;
 
-    //     }
 }
 
 // Why-Choose-North-Sales
