@@ -16,7 +16,8 @@ $green-gradient: linear-gradient(90deg, rgba(32, 189, 90, 1) 0%, rgba(25, 171, 7
 body {
     overflow: hidden;
     overflow-y: auto;
-    font-family: "Poppins", sans-serif;
+    // font-family: "Poppins", sans-serif;
+      font-family: "Open Sans", sans-serif;
 }
 
 .section-space-sm {
@@ -41,7 +42,8 @@ body {
     background: $pink-gradient;
 
     &:hover{
-        background: linear-gradient(90deg, rgba(254, 248, 241, 1) 0%, rgba(253, 248, 243, 1) 100%);
+        // background: linear-gradient(90deg, rgba(254, 248, 241, 1) 0%, rgba(253, 248, 243, 1) 100%);
+        background-color: #FFF5E5;
     }
 }
 
@@ -49,14 +51,16 @@ body {
     background: $light-blue-gradient;
 
     &:hover{
-        background: linear-gradient(90deg, rgba(246, 249, 255, 1) 0%, rgba(247, 248, 255, 1) 100%);
+        // background: linear-gradient(90deg, rgba(246, 249, 255, 1) 0%, rgba(247, 248, 255, 1) 100%);
+        background-color: #ECF4FA;
     }
 }
 
 .light-purple-gradient {
-    background: $light-purple-gradient;
+    background: #FBF8FB;
     &:hover{
-        background: linear-gradient(90deg, rgba(250, 246, 254, 1) 0%, rgba(250, 247, 255, 1) 100%);
+        // background: linear-gradient(90deg, rgba(250, 246, 254, 1) 0%, rgba(250, 247, 255, 1) 100%);
+        background-color: #F9F0F6;
     }
 }
 
